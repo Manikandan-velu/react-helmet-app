@@ -1,5 +1,4 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
 import SEO from '../SEO/SEO';
 
 function Landing (){
@@ -12,40 +11,40 @@ function Landing (){
             <br />
             <div className="row">
                 <div className="col-sm-4">
-                <p className="text-center"><strong>Name</strong></p><br />
-                <a href="#demo" data-toggle="collapse">
-                    <img src="https://cdn.pixabay.com/photo/2022/10/31/17/31/copper-teapots-7560392_960_720.jpg" className="img-circle person" alt="Random Name" width="255" height="255" />
-                </a>
-                <div id="demo" className="collapse">
-                    <p>Guitarist and Lead Vocalist</p>
-                    <p>Loves long walks on the beach</p>
-                    <p>Member since 1988</p>
-                </div>
-                </div>
-                <div className="col-sm-4">
-                <p className="text-center"><strong>Name</strong></p><br />
-                <a href="#demo2" data-toggle="collapse">
-                    <img src="https://cdn.pixabay.com/photo/2022/10/31/17/31/copper-teapots-7560392_960_720.jpg" className="img-circle person" alt="Random Name" width="255" height="255" />
-                </a>
-                <div id="demo2" className="collapse">
-                    <p>Drummer</p>
-                    <p>Loves drummin'</p>
-                    <p>Member since 1988</p>
-                </div>
+                    <p className="text-center"><strong>Name</strong></p><br />
+                    <a href="#demo" data-toggle="collapse">
+                        <img src="https://cdn.pixabay.com/photo/2022/10/31/17/31/copper-teapots-7560392_960_720.jpg" className="img-circle person" alt="Random Name" width="255" height="255" />
+                    </a>
+                    <div id="demo" className="collapse">
+                        <p>Guitarist and Lead Vocalist</p>
+                        <p>Loves long walks on the beach</p>
+                        <p>Member since 1988</p>
+                    </div>
                 </div>
                 <div className="col-sm-4">
-                <p className="text-center"><strong>Name</strong></p><br />
-                <a href="#demo3" data-toggle="collapse">
-                    <img src="https://cdn.pixabay.com/photo/2022/10/31/17/31/copper-teapots-7560392_960_720.jpg" className="img-circle person" alt="Random Name" width="255" height="255" />
-                </a>
-                <div id="demo3" className="collapse">
-                    <p>Bass player</p>
-                    <p>Loves math</p>
-                    <p>Member since 2005</p>
+                    <p className="text-center"><strong>Name</strong></p><br />
+                    <a href="#demo2" data-toggle="collapse">
+                        <img src="https://cdn.pixabay.com/photo/2022/10/31/17/31/copper-teapots-7560392_960_720.jpg" className="img-circle person" alt="Random Name" width="255" height="255" />
+                    </a>
+                    <div id="demo2" className="collapse">
+                        <p>Drummer</p>
+                        <p>Loves drummin'</p>
+                        <p>Member since 1988</p>
+                    </div>
                 </div>
+                <div className="col-sm-4">
+                    <p className="text-center"><strong>Name</strong></p><br />
+                    <a href="#demo3" data-toggle="collapse">
+                        <img src="https://cdn.pixabay.com/photo/2022/10/31/17/31/copper-teapots-7560392_960_720.jpg" className="img-circle person" alt="Random Name" width="255" height="255" />
+                    </a>
+                    <div id="demo3" className="collapse">
+                        <p>Bass player</p>
+                        <p>Loves math</p>
+                        <p>Member since 2005</p>
+                    </div>
                 </div>
             </div>
-            </div>
+        </div>
     )
 }
 
