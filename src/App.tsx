@@ -1,8 +1,8 @@
 import React from 'react';
-import Header from './components/Header/Header';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Landing from './components/Landing/Landing';
+import Header from './components/Header/Header';
 import { Helmet, HelmetProvider, HelmetData } from 'react-helmet-async';
 
 function App() {
