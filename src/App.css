@@ -17,7 +17,7 @@
 }
 .App-logo {
   height: 40vmin;
-  pointer-events: none;
+  pointer-events: default;
 }
 body {
   font: 400 15px/1.8 Lato, sans-serif;
@@ -27,7 +27,7 @@ h3, h4 {
   margin: 10px 0 30px 0;
   letter-spacing: 10px;      
   font-size: 20px;
-  color: #111;
+  color: #111111;
 }
 .container {
   padding: 80px 120px;
@@ -50,7 +50,7 @@ h3, h4 {
   margin: auto;
 }
 .carousel-caption h3 {
-  color: #fff !important;
+  color: #ffffff !important;
 }
 @media (max-width: 600px) {
   .carousel-caption {
@@ -61,7 +61,7 @@ h3, h4 {
   background: #2d2d30;
   color: #bdbdbd;
 }
-.bg-1 h3 {color: #fff;}
+.bg-1 h3 {color: #ffffff;}
 .bg-1 p {font-style: italic;}
 .list-group-item:first-child {
   border-top-right-radius: 0;
@@ -89,7 +89,7 @@ h3, h4 {
 }
 .btn:hover, .btn:focus {
   border: 1px solid #333;
-  background-color: #fff;
+  background-color: #ffffff;
   color: #000;
 }
 .modal-header, h4, .close {
@@ -102,7 +102,7 @@ h3, h4 {
   padding: 40px 50px;
 }
 .nav-tabs li a {
-  color: #777;
+  color: #777777;
 }
 #googleMap {
   width: 100%;
@@ -123,10 +123,10 @@ h3, h4 {
   color: #d5d5d5 !important;
 }
 .navbar-nav li a:hover {
-  color: #fff !important;
+  color: #ffffff !important;
 }
 .navbar-nav li.active a {
-  color: #fff !important;
+  color: #ffffff !important;
   background-color: #29292c !important;
 }
 .navbar-default .navbar-toggle {
@@ -137,7 +137,7 @@ h3, h4 {
   background-color: #555 !important;
 }
 .dropdown-menu li a {
-  color: #000 !important;
+  color: #000000 !important;
 }
 .dropdown-menu li a:hover {
   background-color: red !important;
@@ -151,7 +151,7 @@ footer a {
   color: #f5f5f5;
 }
 footer a:hover {
-  color: #777;
+  color: #777777;
   text-decoration: none;
 }  
 .form-control {
